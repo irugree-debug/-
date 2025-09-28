@@ -1,0 +1,481 @@
+/*     Default Bootstrap     */
+.navbar-nav{
+    float: none;
+}
+.navbar-brand{
+    padding: 0px;
+}
+.navbar-collapse{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #222631;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.navbar-default .navbar-nav .open a, .navbar-default .navbar-nav .open a:hover, .open a:focus{
+    background-color: #222631;
+    color: #bdc5db;
+}
+.dropdown-menu{
+    background-color: #222631;
+}
+/*     Custom Styles     */
+
+/*     Navigation     */
+
+.navbar-custom{
+    padding: 30px 0px;
+    background: #222631;
+    border-radius: 0px;
+    text-align: center;
+    border: none;
+}
+.navbar-custom .navbar-nav-custom{
+    font-family: 'MyriadProRegular';
+    font-size: 17px;
+}
+.navbar-custom .navbar-nav-custom li{
+    float: none;
+    display: inline-block;
+    margin-right: 100px;
+}
+.navbar-custom .navbar-nav-custom li a{
+    color: #bdc5db;
+}
+.navbar-custom .navbar-nav-custom li a:hover{
+    color: #bdc5db;
+}
+.navbar-custom .navbar-nav-custom li a:focus{
+    color: #bdc5db;
+    outline: none;
+}
+.navbar-custom .navbar-brand .image-brand{
+    height: 100%;
+    padding-left: 100px;
+}
+.navbar-custom .navbar-nav-custom li a .imageVk{
+    height: 100%;
+}
+
+.navbar-custom .navbar-left li{
+    margin-right: 0px;
+    margin-left: 100px;
+}
+
+/*     Section - About     */
+
+.background-about{
+    background: url('../img/background.png') no-repeat center center;
+    background-size: cover;
+    padding: 30px 0px 10px 0px;
+    margin-top: -20px;
+}
+.background-about .message{
+    color: #ffffff;
+    padding: 23% 0% 25% 0%;
+}
+.background-about .message .brand{
+    text-transform: uppercase;
+    text-align: center;
+}
+.background-about .message .brand h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.background-about .message .brand{
+    font-family: 'ExoExtraLight';    
+}
+.background-about .message .aboutProject {
+    font-family: 'ExoExtraLight';
+    text-align: center;    
+    width: 70%;
+    font-size: 21px;
+    margin: auto;   
+}
+
+/*     Section - How to start     */
+
+.how-to-start{
+    background: #eeeeee;
+    padding: 5% 0% 5% 0%;
+}
+
+.how-to-start .startBackground .container-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.how-to-start .startBackground .container-flex .blockDescription{
+    width: 50%;
+    padding: 10px 60px;
+}
+
+.how-to-start .startBackground .container-flex .blockDescription .stageDescription{
+    width: 90%;
+    font-size: 22px;
+    color: #353944;
+    font-family: 'ExoMedium';
+    padding-left: 15px;    
+}
+
+.how-to-start .startBackground .container-flex .blockDescription .smallStageDescription{
+    width: 90%;
+    font-size: 17px;
+    color: #353944;
+    font-family: 'ExoMedium';    
+}
+
+.how-to-start .startBackground .container-flex .blockDescription .adaptiveDescription{
+    width: 70%;
+}
+
+.how-to-start .startBackground .container-flex .blockDescription .stageImg{
+    float: right;
+}
+
+.how-to-start .startBackground .container-header{
+    padding-bottom: 40px;
+}
+
+.how-to-start .buttonSection{
+    width: 50%;
+}
+
+
+/*     About      */
+
+.about{
+    clear: both;
+}
+
+.about .globalText{
+    padding: 10% 0% 5% 0%;
+}
+
+.aboutBlock{
+    background: #222631;
+    width: 100%;
+    height: 350px;
+    border-bottom: 20px solid #1c2029;
+}
+
+.aboutBlockInformation{
+    text-align: center;
+    width: 90%;
+    margin: 0px auto;
+    color: #ffffff;
+    font-family: 'ExoMedium';
+    padding-top: 25px;
+    font-size: 15px;
+}
+
+.aboutImage{
+    display: block;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+/*     Footer      */
+
+.footerBlock{
+    margin-top: 6%;
+    width: 100%;
+    background: #222631;
+}
+
+.footer .footerBlock .copy{
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    color: #bdc5db;
+    font-family: 'MyriadProRegular';
+    font-size: 15px;
+}
+
+.footer .footerBlock .copy p{
+    margin: 0px;
+}
+
+/*     Fraction's     */
+
+.fractions-body{
+    background-color: #2d3b4b;
+}
+
+.fractions-body .navbar-custom{
+    background-color: #2d3b4b;
+}
+
+.fractions-body .navbar-custom .navbar-toggle:focus,.navbar-toggle:visited,.navbar-toggle:hover{
+    background-color: #2d3b4b;    
+}
+
+.fractions{
+    font-family: 'ExoMedium';
+    padding-top: 50px;
+}
+
+.fractions-body .fractionsFooter{
+    color: #ffffff;
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 20px;
+    font-family: 'GothaPro';
+}
+
+/*     Section[1]     */
+
+.fractions .section-1 .block1{
+    background: url('../img/goverment.png') no-repeat center center;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin: 0px 0px 0px 5px;
+}
+.fractions .section-1 .block2{
+    background: url('../img/hospital.png') no-repeat center center;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin: 0px 0px 0px 10px;
+}
+
+/*     Section[2]     */
+
+.fractions .section-2 .block1{
+    background: url('../img/army.png') no-repeat center center;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin: 0px 0px 0px 5px;
+}
+.fractions .section-2 .block2{
+    background: url('../img/police2.png') no-repeat center center;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin: 0px 0px 0px 10px;
+}
+
+/*     Section[3]     */
+
+.fractions .section-3 .block1{
+    background: url('../img/police.png') no-repeat center center;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin: 0px 0px 0px 5px;
+}
+.fractions .section-3 .block2{
+    background: url('../img/fire-departament.png') no-repeat center center;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin: 0px 0px 0px 10px;
+}
+
+/*     Other     */
+
+.fractions-body .navbar-custom .navbar-toggle:hover{
+    background: #2d3b4b;
+}
+
+.fractions .no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.fractions .line{
+    background: rgb(95, 108, 127);
+    background: rgba(95, 108, 127, 0.8);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.fractions .line p{
+    color: #fff;
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
+}
+
+.fractions .section-1,.section-2,.section-3{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+/*     Donate     */
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #eee;
+}
+
+.content .startBackground{
+    margin-top: 50px;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+.footer{
+    flex: 0 0 auto;
+}
+
+.content .globalText{
+    font-family: 'ExoMedium';
+}
+
+.content .smallText{
+    width: 40%;
+    margin: 0px auto;
+}
+
+.content .btn{
+    width: 25%;
+    display: block;
+    margin: 0px auto 30px auto;
+    padding: 15px 0px;
+}
+
+.content .inputBlock{
+    background-color: #353944;
+    width: 40%;
+    border-radius: 50px;
+    margin: 30px auto;   
+    padding: 15px 0px; 
+}
+
+.content .inputBlock img{
+    float: left;
+    padding: 5px 10px 5px 20px;
+}
+
+.content .inputBlock input{
+    border-radius: 50px;
+    width: 80%;
+    height: 47px;
+    color: #353944;
+    text-align: center;
+    font-family: 'ExoMedium';
+}
+
+.content .inputBlock input[type="text"]::-webkit-input-placeholder {
+    color: #353944;
+} 
+.content .inputBlock input[type="text"]::-moz-placeholder {
+    color: #353944;
+}
+
+.center p{
+    text-align: center;
+    color: #353944;
+    font-size: 18px;
+    font-family: 'ExoMedium';
+}
+
+.content .list .listBlock{
+    width: 14%;
+    background-color: #353944;
+    padding: 20px 0px;
+    border-radius: 50px;
+    margin: 20px 1px;
+    height: 150px;
+    float: left;
+}
+
+.content .list .listBlock:nth-child(7){
+    padding: 20px 20px;
+}
+
+.content .list .listBlock .img1{
+    display: block;
+    margin: 0px auto;
+    height: 50px;
+}
+
+.content .list .listBlock .img2{
+    display: block;
+    margin: 0px auto;
+    padding-top: 29px;
+    width: 100%;
+}
+
+.content .list .listBlock p{
+    padding-top: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: 'VerdanaRegular';
+}
+
+/*     Global     */
+
+.no-margin{
+    margin: 0px;
+}
+
+.btn{
+    background-color: #353944;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 50px;
+    padding: 8px 0px;
+    font-family: 'ExoMedium';
+}
+.btn:focus, .btn:active:focus, .btn:hover{
+    color: #ffffff;
+    outline: none;
+}
+.startBackground{
+    background: #ffffff;
+    padding: 5% 7% 5% 7%;
+    border-radius: 70px;
+}
+.btn img{
+    padding-right: 10px;
+}
+.globalText{
+    color: #353944;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'ExoBold';
+    overflow: hidden;
+}
+.globalText:before,.globalText:after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 6%;
+    height: 5px;
+    background: #353944;
+    border: solid #FFF;
+    border-width: 0 10px;
+    border-radius: 10px;
+}
+.globalText:before{
+     margin-left: -100%;
+}
+.globalText:after{
+     margin-right: -100%;
+}
+.smallText{
+    text-align: center;
+    color: #353944;
+    font-family: 'ExoMedium';
+    font-size: 16px;
+}
+.boldSection{
+    font-family: 'ExoBold';
+}

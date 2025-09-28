@@ -1,0 +1,193 @@
+@media (max-width: 767px) {
+    /*     NAVIGATION     */
+    .navbar-custom .navbar-brand .image-brand {
+        padding-left: 20px;
+    }
+    .navbar-nav{
+        text-align: right;
+    }
+    .navbar-custom .navbar-left li {
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+    .navbar-custom .navbar-nav-custom li{
+        float: none;
+        display: block;
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+    /*     GLOBAL ELEMENT'S     */
+    .globalText:before,.globalText:after{
+        width: 0%;
+    }
+    /*     ABOUT     */
+    .aboutBlock{
+        margin-bottom: 40px;    
+    }
+    .background-about .message .aboutProject{
+        width: 100%;
+    }
+    /*     HOW TO START     */
+    .how-to-start .startBackground .container-flex .blockDescription{
+        width: 100%;
+        padding: 0px;
+        padding: 20px 0px;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .stageDescription{
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .smallStageDescription{
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .stageImg{
+        width: 100%;
+        float: none;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .adaptiveDescription {
+        width: 100%;
+    }
+    .blockDescription:nth-child(1){
+        order: -2;
+    }
+    .blockDescription:nth-child(2),.blockDescription:nth-child(4){
+        order: -1;
+    }
+    .blockDescription:nth-child(6),.blockDescription:nth-child(8){
+        order: 1;
+    }
+    .blockDescription:nth-child(7){
+        order: 4;
+    }
+    .buttonSection{
+        margin: 0px auto;
+    }
+    .fractions .section-1 .block1,.fractions .section-1 .block2,.fractions .section-2 .block1,.fractions .section-2 .block2,.fractions .section-3 .block1,.fractions .section-3 .block2{
+        margin: 0px 0px 10px 0px;
+    }
+    .content .smallText, .content .inputBlock, .content .btn{
+        width: 100%;
+    }
+    .content .inputBlock img{
+        padding: 5px 5px 5px 15px;
+    }
+    .content .list{
+        width: 100%;
+    }
+    .content .list .listBlock{
+        width: 50%;
+        margin: 20px auto;
+        float: none;
+    }
+    .fractions-body .fractionsFooter{
+        text-align: center;
+        padding-right: 0%;
+    }
+    .navbar-custom .navbar-nav .open .dropdown-menu li a {
+        color: #bdc5db;
+        text-align: right;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .aboutBlock{
+        height: 370px;
+    }
+    .navbar-custom .navbar-brand .image-brand{
+        padding-left: 50px;
+    }
+    .navbar-custom .navbar-nav-custom li{
+        margin-right: 0px;
+    }
+    .background-about .message .aboutProject{
+        width: 90%;
+    }
+    .content .inputBlock img{
+        padding: 3px 3px 3px 5px;
+    }
+    .content .smallText{
+        width: 70%;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription{
+        padding: 40px 0px 0px 50px;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .stageDescription{
+        width: 100%;
+        text-align: left;
+        padding: 0px 0px 0px 15px;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .smallStageDescription{
+        width: 100%;
+        text-align: left;
+        padding: 0px;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .stageImg{
+        width: 100%;
+        float: none;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .adaptiveDescription {
+        width: 100%;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .buttonSection{
+        width: 70%;
+    }
+    .fractions .section-1 .block1,.fractions .section-1 .block2,.fractions .section-2 .block1,.fractions .section-2 .block2,.fractions .section-3 .block1,.fractions .section-3 .block2{
+        margin: 0px 0px 10px 0px;
+    }
+    .fractions-body .fractionsFooter{
+        text-align: center;
+        padding-right: 0%;
+    }
+    .content .list .listBlock{
+        width: 25%;
+        margin: 27px;
+    }
+    
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-custom .navbar-brand .image-brand{
+        padding-left: 50px;
+    }
+    .navbar-custom .navbar-nav-custom li{
+        margin-right: 10px;
+    }   
+    .content .inputBlock img{
+        padding: 5px 5px 5px 15px;
+    } 
+    .how-to-start .startBackground .container-flex .blockDescription{
+        padding: 40px 0px 0px 50px;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .stageDescription{
+        width: 100%;
+        text-align: left;
+        padding: 0px 0px 0px 15px;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .smallStageDescription{
+        width: 100%;
+        text-align: left;
+        padding: 0px;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .stageImg{
+        width: 100%;
+        float: none;
+    }
+    .how-to-start .startBackground .container-flex .blockDescription .adaptiveDescription {
+        width: 70%;
+    }
+    .fractions .section-1 .block1,.fractions .section-1 .block2,.fractions .section-2 .block1,.fractions .section-2 .block2,.fractions .section-3 .block1,.fractions .section-3 .block2{
+        margin: 0px 0px 10px 0px;
+    }
+    .fractions-body .fractionsFooter{
+        text-align: center;
+        padding-right: 0%;
+    }
+    
+}
+@media (min-width: 1200px) and (max-width: 1526px){
+    .navbar-custom .navbar-nav-custom li{
+        margin-right: 40px;
+    }      
+}

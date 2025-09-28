@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/MyriadPro-Regular.otf');
+}
+@font-face {
+    font-family: 'ExoExtraLight';
+    src: url('../fonts/Exo2.0-ExtraLight.otf');
+}
+@font-face {
+    font-family: 'ExoBold';
+    src: url('../fonts/Exo2.0-Bold.otf');
+}
+@font-face {
+    font-family: 'ExoMedium';
+    src: url('../fonts/Exo2.0-Medium.otf');
+}
+@font-face {
+    font-family: 'VerdanaRegular';
+    src: url('../fonts/Verdana-Regular.ttf');
+}
+@font-face {
+    font-family: 'GothaPro';
+    src: url('../fonts/GothaProReg.otf');
+}
